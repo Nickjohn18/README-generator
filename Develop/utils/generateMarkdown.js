@@ -14,6 +14,53 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+
+
+  ${data.description}<br />
+
+  ## Table of Contents
+
+  
+  * [Installation](${data.installation})
+  * [Usage](${data.usage})
+  * [Credits](${data.collaborators})
+  * [License](${data.license})
+
+  ## Installation
+
+
+  ${data.installation}
+
+  ## Usage
+
+
+  ${data.usage}
+
+  ## Credits
+
+
+  ${data.collaborators}
+
+  ## License
+
+  
+  ${data.license}
+
+  ## Badges
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+  ## Contributing
+
+  ## Tests
+
+
+  ${data.tests}
+
+  ## Additional Info
+
+
+  ${data.email}
 `;
 }
 
