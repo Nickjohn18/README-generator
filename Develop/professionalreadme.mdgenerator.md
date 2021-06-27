@@ -20,10 +20,10 @@
 
   ## License
   ![badge](https://img.shields.io/badge/license-mit-brightgreen)
-  mit
+ 
 
   ## Tests
-  No tests included
+  none
 
   ## Additional Info
-  readmegenerator@generate.com
+  readme@generator.com
