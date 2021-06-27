@@ -4,7 +4,7 @@
 
 This a project that runs with Node.js that generates a README.md file based on the user input and series of question.
 
-![demo](https://drive.google.com/file/d/1eLzr9JFfdUEUvRyWL0tyz0oocYSAqTPE/view)
+![READMEexample](https://media.giphy.com/media/UwsWwk7K2B7hFT0bWr/giphy.gif)
 
 ## Table of Contents
 
