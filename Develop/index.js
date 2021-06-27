@@ -108,7 +108,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, JSON.stringify(data, null, "\t"), function (err) {
+  fs.writeFile(fileName, data, function (err) {
     if (err) {
       return console.log(err);
     }
@@ -119,8 +119,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then(function (data) {
+    const generate = generateMarkdown(data);
     const title = data.title.toLowerCase().split(" ").join("") + ".md";
-    writeToFile(title, generateMarkdown(data));
+    writeToFile(title, generate);
   });
 }
 
