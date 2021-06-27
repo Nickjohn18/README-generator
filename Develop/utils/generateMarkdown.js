@@ -35,7 +35,7 @@ function generateMarkdown(data) {
 
   ## License
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-  ${data.license}
+ 
 
   ## Tests
   ${data.tests}
